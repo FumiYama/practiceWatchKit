@@ -14,6 +14,14 @@
 		32A53BC11BD4DF9A001B04EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A53BBF1BD4DF9A001B04EB /* LaunchScreen.storyboard */; };
 		32A53BCC1BD4DF9A001B04EB /* practiceWatchKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A53BCB1BD4DF9A001B04EB /* practiceWatchKitTests.swift */; };
 		32A53BD71BD4DF9A001B04EB /* practiceWatchKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A53BD61BD4DF9A001B04EB /* practiceWatchKitUITests.swift */; };
+		32A53BED1BD4E4AF001B04EB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A53BEC1BD4E4AF001B04EB /* InterfaceController.swift */; };
+		32A53BEF1BD4E4AF001B04EB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A53BEE1BD4E4AF001B04EB /* NotificationController.swift */; };
+		32A53BF11BD4E4AF001B04EB /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A53BF01BD4E4AF001B04EB /* GlanceController.swift */; };
+		32A53BF31BD4E4AF001B04EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A53BF21BD4E4AF001B04EB /* Assets.xcassets */; };
+		32A53BF81BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 App.app in Resources */ = {isa = PBXBuildFile; fileRef = 32A53BF71BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 App.app */; };
+		32A53BFE1BD4E4AF001B04EB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A53BFC1BD4E4AF001B04EB /* Interface.storyboard */; };
+		32A53C001BD4E4AF001B04EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32A53BFF1BD4E4AF001B04EB /* Assets.xcassets */; };
+		32A53C041BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 32A53BE81BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +39,35 @@
 			remoteGlobalIDString = 32A53BB21BD4DF9A001B04EB;
 			remoteInfo = practiceWatchKit;
 		};
+		32A53BF91BD4E4AF001B04EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A53BAB1BD4DF9A001B04EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A53BF61BD4E4AF001B04EB;
+			remoteInfo = "practiceWatchKit WatchKit 1 App";
+		};
+		32A53C021BD4E4AF001B04EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32A53BAB1BD4DF9A001B04EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32A53BE71BD4E4AF001B04EB;
+			remoteInfo = "practiceWatchKit WatchKit 1 Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32A53C0B1BD4E4AF001B04EB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				32A53C041BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		32A53BB31BD4DF9A001B04EB /* practiceWatchKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practiceWatchKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +83,19 @@
 		32A53BD21BD4DF9A001B04EB /* practiceWatchKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceWatchKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A53BD61BD4DF9A001B04EB /* practiceWatchKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceWatchKitUITests.swift; sourceTree = "<group>"; };
 		32A53BD81BD4DF9A001B04EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A53BE81BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "practiceWatchKit WatchKit 1 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A53BEB1BD4E4AF001B04EB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		32A53BEC1BD4E4AF001B04EB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		32A53BEE1BD4E4AF001B04EB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		32A53BF01BD4E4AF001B04EB /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		32A53BF21BD4E4AF001B04EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32A53BF41BD4E4AF001B04EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A53BF71BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "practiceWatchKit WatchKit 1 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A53BFD1BD4E4AF001B04EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		32A53BFF1BD4E4AF001B04EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32A53C011BD4E4AF001B04EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A53C0C1BD4E4D9001B04EB /* practiceWatchKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = practiceWatchKit.entitlements; sourceTree = "<group>"; };
+		32A53C0D1BD4E5EF001B04EB /* practiceWatchKit WatchKit 1 Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "practiceWatchKit WatchKit 1 Extension.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +120,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32A53BE51BD4E4AF001B04EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +136,8 @@
 				32A53BB51BD4DF9A001B04EB /* practiceWatchKit */,
 				32A53BCA1BD4DF9A001B04EB /* practiceWatchKitTests */,
 				32A53BD51BD4DF9A001B04EB /* practiceWatchKitUITests */,
+				32A53BE91BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 Extension */,
+				32A53BFB1BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 App */,
 				32A53BB41BD4DF9A001B04EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +148,8 @@
 				32A53BB31BD4DF9A001B04EB /* practiceWatchKit.app */,
 				32A53BC71BD4DF9A001B04EB /* practiceWatchKitTests.xctest */,
 				32A53BD21BD4DF9A001B04EB /* practiceWatchKitUITests.xctest */,
+				32A53BE81BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 Extension.appex */,
+				32A53BF71BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +157,7 @@
 		32A53BB51BD4DF9A001B04EB /* practiceWatchKit */ = {
 			isa = PBXGroup;
 			children = (
+				32A53C0C1BD4E4D9001B04EB /* practiceWatchKit.entitlements */,
 				32A53BB61BD4DF9A001B04EB /* AppDelegate.swift */,
 				32A53BB81BD4DF9A001B04EB /* ViewController.swift */,
 				32A53BBA1BD4DF9A001B04EB /* Main.storyboard */,
@@ -125,6 +186,38 @@
 			path = practiceWatchKitUITests;
 			sourceTree = "<group>";
 		};
+		32A53BE91BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				32A53C0D1BD4E5EF001B04EB /* practiceWatchKit WatchKit 1 Extension.entitlements */,
+				32A53BEC1BD4E4AF001B04EB /* InterfaceController.swift */,
+				32A53BEE1BD4E4AF001B04EB /* NotificationController.swift */,
+				32A53BF01BD4E4AF001B04EB /* GlanceController.swift */,
+				32A53BF21BD4E4AF001B04EB /* Assets.xcassets */,
+				32A53BF41BD4E4AF001B04EB /* Info.plist */,
+				32A53BEA1BD4E4AF001B04EB /* Supporting Files */,
+			);
+			path = "practiceWatchKit WatchKit 1 Extension";
+			sourceTree = "<group>";
+		};
+		32A53BEA1BD4E4AF001B04EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32A53BEB1BD4E4AF001B04EB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A53BFB1BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 App */ = {
+			isa = PBXGroup;
+			children = (
+				32A53BFC1BD4E4AF001B04EB /* Interface.storyboard */,
+				32A53BFF1BD4E4AF001B04EB /* Assets.xcassets */,
+				32A53C011BD4E4AF001B04EB /* Info.plist */,
+			);
+			path = "practiceWatchKit WatchKit 1 App";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +228,12 @@
 				32A53BAF1BD4DF9A001B04EB /* Sources */,
 				32A53BB01BD4DF9A001B04EB /* Frameworks */,
 				32A53BB11BD4DF9A001B04EB /* Resources */,
+				32A53C0B1BD4E4AF001B04EB /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				32A53C031BD4E4AF001B04EB /* PBXTargetDependency */,
 			);
 			name = practiceWatchKit;
 			productName = practiceWatchKit;
@@ -181,6 +276,39 @@
 			productReference = 32A53BD21BD4DF9A001B04EB /* practiceWatchKitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		32A53BE71BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A53C081BD4E4AF001B04EB /* Build configuration list for PBXNativeTarget "practiceWatchKit WatchKit 1 Extension" */;
+			buildPhases = (
+				32A53BE41BD4E4AF001B04EB /* Sources */,
+				32A53BE51BD4E4AF001B04EB /* Frameworks */,
+				32A53BE61BD4E4AF001B04EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A53BFA1BD4E4AF001B04EB /* PBXTargetDependency */,
+			);
+			name = "practiceWatchKit WatchKit 1 Extension";
+			productName = "practiceWatchKit WatchKit 1 Extension";
+			productReference = 32A53BE81BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		32A53BF61BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32A53C051BD4E4AF001B04EB /* Build configuration list for PBXNativeTarget "practiceWatchKit WatchKit 1 App" */;
+			buildPhases = (
+				32A53BF51BD4E4AF001B04EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "practiceWatchKit WatchKit 1 App";
+			productName = "practiceWatchKit WatchKit 1 App";
+			productReference = 32A53BF71BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -192,6 +320,12 @@
 				TargetAttributes = {
 					32A53BB21BD4DF9A001B04EB = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GCXLS66975;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					32A53BC61BD4DF9A001B04EB = {
 						CreatedOnToolsVersion = 7.0;
@@ -200,6 +334,18 @@
 					32A53BD11BD4DF9A001B04EB = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 32A53BB21BD4DF9A001B04EB;
+					};
+					32A53BE71BD4E4AF001B04EB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GCXLS66975;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					32A53BF61BD4E4AF001B04EB = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
@@ -219,6 +365,8 @@
 				32A53BB21BD4DF9A001B04EB /* practiceWatchKit */,
 				32A53BC61BD4DF9A001B04EB /* practiceWatchKitTests */,
 				32A53BD11BD4DF9A001B04EB /* practiceWatchKitUITests */,
+				32A53BE71BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 Extension */,
+				32A53BF61BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 App */,
 			);
 		};
 /* End PBXProject section */
@@ -245,6 +393,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A53BE61BD4E4AF001B04EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A53BF31BD4E4AF001B04EB /* Assets.xcassets in Resources */,
+				32A53BF81BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A53BF51BD4E4AF001B04EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A53C001BD4E4AF001B04EB /* Assets.xcassets in Resources */,
+				32A53BFE1BD4E4AF001B04EB /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +442,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32A53BE41BD4E4AF001B04EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A53BEF1BD4E4AF001B04EB /* NotificationController.swift in Sources */,
+				32A53BED1BD4E4AF001B04EB /* InterfaceController.swift in Sources */,
+				32A53BF11BD4E4AF001B04EB /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,6 +464,16 @@
 			isa = PBXTargetDependency;
 			target = 32A53BB21BD4DF9A001B04EB /* practiceWatchKit */;
 			targetProxy = 32A53BD31BD4DF9A001B04EB /* PBXContainerItemProxy */;
+		};
+		32A53BFA1BD4E4AF001B04EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A53BF61BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 App */;
+			targetProxy = 32A53BF91BD4E4AF001B04EB /* PBXContainerItemProxy */;
+		};
+		32A53C031BD4E4AF001B04EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32A53BE71BD4E4AF001B04EB /* practiceWatchKit WatchKit 1 Extension */;
+			targetProxy = 32A53C021BD4E4AF001B04EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -306,6 +492,14 @@
 				32A53BC01BD4DF9A001B04EB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		32A53BFC1BD4E4AF001B04EB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32A53BFD1BD4E4AF001B04EB /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -396,10 +590,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = practiceWatchKit/practiceWatchKit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = practiceWatchKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yamanakafumiya.practiceWatchKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -407,10 +606,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = practiceWatchKit/practiceWatchKit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = practiceWatchKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yamanakafumiya.practiceWatchKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -462,6 +666,66 @@
 			};
 			name = Release;
 		};
+		32A53C061BD4E4AF001B04EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = practiceWatchKit_WatchKit_1_Extension;
+				INFOPLIST_FILE = "practiceWatchKit WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamanakafumiya.practiceWatchKit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		32A53C071BD4E4AF001B04EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = practiceWatchKit_WatchKit_1_Extension;
+				INFOPLIST_FILE = "practiceWatchKit WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamanakafumiya.practiceWatchKit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		32A53C091BD4E4AF001B04EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "practiceWatchKit WatchKit 1 Extension/practiceWatchKit WatchKit 1 Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "practiceWatchKit WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamanakafumiya.practiceWatchKit.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		32A53C0A1BD4E4AF001B04EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "practiceWatchKit WatchKit 1 Extension/practiceWatchKit WatchKit 1 Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "practiceWatchKit WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamanakafumiya.practiceWatchKit.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -495,6 +759,22 @@
 			buildConfigurations = (
 				32A53BE21BD4DF9A001B04EB /* Debug */,
 				32A53BE31BD4DF9A001B04EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32A53C051BD4E4AF001B04EB /* Build configuration list for PBXNativeTarget "practiceWatchKit WatchKit 1 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A53C061BD4E4AF001B04EB /* Debug */,
+				32A53C071BD4E4AF001B04EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32A53C081BD4E4AF001B04EB /* Build configuration list for PBXNativeTarget "practiceWatchKit WatchKit 1 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32A53C091BD4E4AF001B04EB /* Debug */,
+				32A53C0A1BD4E4AF001B04EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

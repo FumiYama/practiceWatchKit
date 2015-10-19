@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Glance - practiceWatchKit WatchKit 1 App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Notification - practiceWatchKit WatchKit 1 App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>practiceWatchKit WatchKit 1 App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>practiceWatchKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>32A53BD11BD4DF9A001B04EB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32A53BF61BD4E4AF001B04EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

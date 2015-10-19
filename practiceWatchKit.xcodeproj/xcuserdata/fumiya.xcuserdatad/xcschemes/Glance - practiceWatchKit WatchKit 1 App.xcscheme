@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0700"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "32A53BF61BD4E4AF001B04EB"
+               BuildableName = "practiceWatchKit WatchKit 1 App.app"
+               BlueprintName = "practiceWatchKit WatchKit 1 App"
+               ReferencedContainer = "container:practiceWatchKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "32A53BB21BD4DF9A001B04EB"
+               BuildableName = "practiceWatchKit.app"
+               BlueprintName = "practiceWatchKit"
+               ReferencedContainer = "container:practiceWatchKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "32A53BE71BD4E4AF001B04EB"
+               BuildableName = "practiceWatchKit WatchKit 1 Extension.appex"
+               BlueprintName = "practiceWatchKit WatchKit 1 Extension"
+               ReferencedContainer = "container:practiceWatchKit.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "32A53BF61BD4E4AF001B04EB"
+            BuildableName = "practiceWatchKit WatchKit 1 App.app"
+            BlueprintName = "practiceWatchKit WatchKit 1 App"
+            ReferencedContainer = "container:practiceWatchKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "4"
+      notificationPayloadFile = "practiceWatchKit WatchKit 1 Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/practiceWatchKit">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "32A53BF61BD4E4AF001B04EB"
+            BuildableName = "practiceWatchKit WatchKit 1 App.app"
+            BlueprintName = "practiceWatchKit WatchKit 1 App"
+            ReferencedContainer = "container:practiceWatchKit.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "32A53BF61BD4E4AF001B04EB"
+            BuildableName = "practiceWatchKit WatchKit 1 App.app"
+            BlueprintName = "practiceWatchKit WatchKit 1 App"
+            ReferencedContainer = "container:practiceWatchKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "4"
+      notificationPayloadFile = "practiceWatchKit WatchKit 1 Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/practiceWatchKit">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "32A53BF61BD4E4AF001B04EB"
+            BuildableName = "practiceWatchKit WatchKit 1 App.app"
+            BlueprintName = "practiceWatchKit WatchKit 1 App"
+            ReferencedContainer = "container:practiceWatchKit.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "32A53BF61BD4E4AF001B04EB"
+            BuildableName = "practiceWatchKit WatchKit 1 App.app"
+            BlueprintName = "practiceWatchKit WatchKit 1 App"
+            ReferencedContainer = "container:practiceWatchKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
